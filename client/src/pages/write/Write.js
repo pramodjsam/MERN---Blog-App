@@ -25,12 +25,12 @@ const Write = () => {
       data.append("file", file);
       newPost.photo = filename;
       try {
-        await axios.post("upload", data);
+        await axios.post("/api/upload", data);
       } catch (error) {
         console.log(error);
       }
     }
-    const res = await axios.post("/posts", newPost);
+    const res = await axios.post("/api/posts", newPost);
     window.location.replace(`/post/${res.data._id}`);
   };
 
