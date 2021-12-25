@@ -66,6 +66,12 @@ The application requires a few environment variables such as
 ##### Backend
 - [MONGO_URI] - Cloud database URI
 
+## Performance Test
+- The Performance test result as per GTmetrix is 99% for performance and 95% for structure.
+![performance](./screenshots/performance.png "performance")
+
+## Hosted
+The link for the finished website - [Click Here](https://wirehaired-third-wednesday.glitch.me/)
 
 ## Note
 
